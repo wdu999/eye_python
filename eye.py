@@ -1178,12 +1178,12 @@ eye.gen_tie()
 eye.gen_eye_db()
 eye.gen_eye_jitter(tag=None)
 eye.gen_eye_jitter(tag="3T - 1T")
-# eye.draw_eye_and_wfm_animation(nums=100)
+eye.draw_eye_and_wfm_animation(nums=30)
 # eye.draw_eye()
-eye.draw_eye_and_wfm()
+# eye.draw_eye_and_wfm()
 
-for tag in ["1T - 1T", "3T - 1T"]:
-    eye.draw_eye_by_tag(tag=tag)
+# for tag in ["1T - 1T", "3T - 1T"]:
+#     eye.draw_eye_by_tag(tag=tag)
 
 # eye.draw_eye_by_tag_animation(tag="3T - 1T")
 # eye.draw_eye_wfm_and_ref_animation(nums=100)
